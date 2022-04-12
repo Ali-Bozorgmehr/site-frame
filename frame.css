@@ -1,0 +1,257 @@
+/* https://www.w3schools.com/colors/colors_palettes.asp
+flowers palletes */
+
+.body {
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #e01e3b;
+    height: 100px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    align-items: center;
+    z-index: 10;
+}
+
+.navbar {
+    position: absolute;
+    width: fit-content;
+    top: 30px;
+    right: 30px;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.navbar a {
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+}
+
+.header_logo {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    justify-content: space-between;
+}
+
+.header_logo img {
+    height: 40px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+.heads {
+    position: sticky;
+    margin-top: 110px;
+    margin-bottom: 8px;
+    top: 30px;
+    z-index: 20;
+}
+
+.head_one {
+    font-size: 32px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    width: 99%;
+    position: relative;
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow-container img {
+    position: relative;
+    width: 100%;
+    height: 535px;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+.mySlides fade
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.header_two {
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 415px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 4px 4px black;
+}
+
+caption {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-spacing: 30px;
+    table-layout: fixed;
+    column-width: 33%;
+}
+
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6 {
+    height: 350px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 270px;
+    background-color: #e01e3b;
+    bottom: 0px;
+}
+
+.footer_table {
+    position: relative;
+    width: 100%;
+    border-spacing: 20px;
+    table-layout: fixed;
+    column-width: 33%;
+}
+
+#footer_logo,
+#useful_links,
+.subscribe {
+    height: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+#footer_logo {}
+
+#footer_logo img {
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+
+#useful_links {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: large;
+    text-align: left;
+}
+
+#useful_links ul {
+    list-style-type: none;
+    margin-top: 2px;
+}
+
+#useful_links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+    padding: 1px;
+    justify-content: left;
+}
+
+
+/* Style the form element with a border around it */
+
+#subscribe {
+    padding-left: 100px;
+}
+
+
+/* Add some padding to subscribe containers */
+
+.container_subscribe {
+    width: 250px;
+}
+
+
+/* Style the input elements and the submit button */
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 6px;
+    margin: 6px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+/* Style the submit button */
+
+input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid;
+    width: 100px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
